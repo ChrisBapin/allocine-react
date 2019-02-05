@@ -18,8 +18,12 @@ class App extends React.Component {
           <section className="cover--container">
             <Cover />
             <div className="cover--content">
-              <Item label="Date de reprise" text="7 mars 2001" />
-              <Item label="Date de sortie" text="27 semptembre 1968" />
+              <Item label="Date de reprise" type="bold" text="7 mars 2001" />
+              <Item
+                label="Date de sortie"
+                type="bold"
+                text="27 semptembre 1968"
+              />
               <Item label="De" text="Stanley Kubrick" />
               <Item
                 label="Avec"

@@ -8,7 +8,7 @@ class Header extends React.Component {
       <>
         <header className={this.props.className}>
           <div className="container">
-            <Logo imgClass="logo" />
+            <Logo className="logo" />
           </div>
         </header>
       </>

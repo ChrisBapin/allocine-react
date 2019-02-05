@@ -6,7 +6,7 @@ class Logo extends React.Component {
     return (
       <>
         <img
-          className={this.props.imgclass}
+          className={this.props.className}
           src={require("../../assets/img/logo.png")}
           alt="logo allocine"
         />
