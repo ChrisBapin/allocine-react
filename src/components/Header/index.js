@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "../Logo";
+import "./index.css";
 
 class Header extends React.Component {
   render() {
@@ -7,7 +8,7 @@ class Header extends React.Component {
       <>
         <header className={this.props.className}>
           <div className="container">
-            <Logo />
+            <Logo imgClass="logo" />
           </div>
         </header>
       </>

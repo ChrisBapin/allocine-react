@@ -1,0 +1,13 @@
+.item--container {
+  margin-bottom: 10px;
+}
+
+.item--container span:first-child {
+  color: #dadada;
+  font-size: 13px;
+}
+
+.item--container span:last-child {
+  color: #2c82c8;
+  font-size: 13px;
+}

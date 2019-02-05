@@ -4,7 +4,13 @@ class Subtitle extends React.Component {
   render() {
     return (
       <>
-        <h2>{this.props.text}</h2>
+        <h2
+          style={{
+            margin: "10px 0",
+          }}
+        >
+          {this.props.text}
+        </h2>
       </>
     );
   }
